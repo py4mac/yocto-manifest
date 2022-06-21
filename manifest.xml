@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="git://git.yoctoproject.org/git" name="yocto"/>
-    <remote fetch="git://github.com/py4mac/" name="py4mac"/>
-    <project remote="yocto" revision="dunfell" name="poky" path="src/yocto"/>
-    <project remote="py4mac" revision="refs/tags/v0.0.1" name="meta-noclue" path="src/meta-noclue"/>
-</manifest>
+    <remote fetch="https://github.com/py4mac" name="py4mac"/>
 
+    <default sync-j="4"/>
+
+    <project name="poky" path="src/yocto" remote="yocto" revision="dunfell"/>
+    <project name="meta-noclue" path="src/meta-noclue" remote="py4mac" revision="09e31936696aa7401e2d7ad4da64312329b3aa4e" upstream="main"/>
+</manifest>
