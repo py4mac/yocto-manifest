@@ -6,5 +6,5 @@
     <default sync-j="4"/>
 
     <project name="poky" path="src/yocto" remote="yocto" revision="dunfell"/>
-    <project name="meta-noclue" path="src/meta-noclue" remote="py4mac" revision="09e31936696aa7401e2d7ad4da64312329b3aa4e" upstream="main"/>
+    <project name="meta-noclue" path="src/meta-noclue" remote="py4mac" revision="main"/>
 </manifest>
