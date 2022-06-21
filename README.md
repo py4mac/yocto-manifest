@@ -1,0 +1,1 @@
+Playground yocto manifest usage (WIP)
