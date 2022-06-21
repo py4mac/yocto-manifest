@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="git://git.yoctoproject.org/git" name="yocto"/>
+    <remote fetch="https://github.com/py4mac/meta-noclue" name="meta-noclue"/>
     <project remote="yocto" revision="dunfell" name="poky" path="src/yocto"/>
+    <project remote="meta-noclue" revision="v0.0.1" name="meta-noclue" path="src/meta-noclue"/>
 </manifest>
 
