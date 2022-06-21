@@ -2,9 +2,6 @@
 <manifest>
     <remote fetch="git://git.yoctoproject.org/git" name="yocto"/>
     <remote fetch="https://github.com/py4mac" name="py4mac"/>
-
-    <default sync-j="4"/>
-
     <project name="poky" path="src/yocto" remote="yocto" revision="dunfell"/>
     <project name="meta-noclue" path="src/meta-noclue" remote="py4mac" revision="main"/>
 </manifest>
