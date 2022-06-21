@@ -3,6 +3,6 @@
     <remote fetch="git://git.yoctoproject.org/git" name="yocto"/>
     <remote fetch="https://github.com/py4mac" name="py4mac"/>
     <project remote="yocto" revision="dunfell" name="poky" path="src/yocto"/>
-    <project remote="py4mac" revision="v0.0.1" name="meta-noclue" path="src/meta-noclue"/>
+    <project remote="py4mac" revision="refs/tags/v0.0.1" name="meta-noclue" path="src/meta-noclue"/>
 </manifest>
 
