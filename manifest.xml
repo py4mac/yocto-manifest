@@ -2,6 +2,6 @@
 <manifest>
     <remote fetch="git://git.yoctoproject.org/git" name="yocto"/>
     <remote fetch="https://github.com/py4mac" name="py4mac"/>
-    <project name="poky" path="src/poky" remote="yocto" revision="dunfell"/>
-    <project name="meta-noclue" path="src/meta-noclue" remote="py4mac" revision="main"/>
+    <project name="poky" path="layers/poky" remote="yocto" revision="dunfell"/>
+    <project name="meta-noclue" path="layers/meta-noclue" remote="py4mac" revision="main"/>
 </manifest>
